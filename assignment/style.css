@@ -1,3 +1,22 @@
-h1 {
-    color: blue;
+#branding {
+    background-color: #035b8f;
+    color: #cfd0d1;
+    text-align: center;
 }
+#content {
+    background-color: #cfd0d1;
+}
+#core {
+    background-image: url('./record.png');
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: repeat;
+    padding: 1em; /* sizing relative to nearest parent */
+} 
+body {
+    margin: 0px;
+}
+/*
+If possible, repeat. if this fails for some reason, it should do it in the y direction, then in horizontal if that also fails.
+
+*/
